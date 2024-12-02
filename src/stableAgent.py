@@ -7,7 +7,7 @@ from stable_baselines3 import A2C, DQN, PPO
 
 def stableAgent():
     savePath = "./models/125x125_gray_PPO_Mlp.zip"
-    timesteps = 10000000
+    timesteps = 13000000
     observationSpace = (125, 125)
 
     gymnasium.register_envs(ale_py)
